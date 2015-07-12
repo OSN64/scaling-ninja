@@ -13,8 +13,12 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    configdialog.cpp \
+    mylineedit.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    configdialog.h \
+    mylineedit.h
 
 FORMS    += mainwindow.ui
